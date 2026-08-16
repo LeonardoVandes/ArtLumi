@@ -1,0 +1,130 @@
+:root {
+    --font-family: 'Golos Text', sans-serif;
+
+    --Branco-color: #dbdbdb;
+    --Principal-color: #FAF0D6;
+    --Destaque-color: #C7B07D;
+    --Texto-color: #8C9199;
+    --Fundo-Btn-color: hsla(210, 13%, 9%, 0.952);
+    --Fundo-Btn-Claro-color: #E8DBB8;
+    --Fundo-Btn-Escuro-color: #292929;
+    --Fundo-Btn-Claro-Transparente-color: #c0af816e;
+    --BackGround-Um-color: #1C1B18;
+    --BackGround-Um-claro-color: #201f1c;
+    --BackGround-Dois-color: #12151A;
+
+}
+
+header {
+    background-color: var(--BackGround-Um-color);
+}
+
+.header-content {
+    width: 100%;
+    height: 5em;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.logo-img {
+    width: 4.5em;
+    height: 4.5em;
+    object-fit: contain;
+}
+
+.phone-btn {
+    letter-spacing: 2.5px;
+    padding: .7em 2em;
+    background-color: #292929;
+    border: 2px solid var(--Destaque-color);
+    color: var(--Destaque-color);
+    
+}
+
+/* HERO */
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+.hero-txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--Branco-color);
+}
+
+.hero-txt h1 {
+    font-size: 3em;
+    line-height: .9em;
+}
+
+.hero-txt p {
+    margin: 1.5em 0 4em 0;
+}
+
+.white-btn {
+    padding: 1em 2em;
+    background-color: var(--Fundo-Btn-Claro-color);
+    border: none;
+    box-shadow: 0px 0px 30px 1px var(--Fundo-Btn-Claro-Transparente-color);
+    font-weight: 600;
+}
+
+.transparent-btn {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: transparent;
+    border: 2px solid var(--Destaque-color);
+    color: var(--Branco-color);
+    background-color: var(--Fundo-Btn-Escuro-color);
+}
+
+.hero-img {
+    width: 27em;
+    height: 27em;
+    position: relative;
+    border: solid 2px var(--Fundo-Btn-Escuro-color);
+}
+
+.hero-img-box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-img-txt {
+    width: 100%;
+    height: 100%;
+    padding: 1.7em 1.7em 0 1.7em;
+    color: var(--Branco-color);
+    font-size: .65em;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-experiencia {
+    width: 10.5em;
+    height: 6.5em;
+    font-size: .8em;
+    background-color: var(--BackGround-Um-claro-color);
+    color: var(--Branco-color);
+    font-weight: 500;
+    padding: 1.4em 1.2em 0 1.2em;
+    border: 2px solid var(--BackGround-Dois-color);
+}
+
+.hero-experiencia span {
+    font-size: 2em;
+    font-weight: 600;
+}
