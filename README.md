@@ -5,3 +5,4 @@
 * Realocar div experiencia e fazer a animação
 * Colocar os efeito do mouse nos botões
 * Arrumar logo, colocar nome no lado e colocar logo sem nome
+* Fazer as media query do header
