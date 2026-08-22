@@ -14,3 +14,14 @@
     color: var(--Destaque-color) ;
 }
 
+button {
+    cursor: pointer;
+}
+.transform-btn {
+    transition: all .3s ease-in-out;
+    
+}
+
+.transform-btn:hover {
+    transform: translateY(-8px);
+}
