@@ -27,7 +27,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .logo-img {
@@ -57,14 +57,13 @@ header {
     width: 100%;
     height: 100vh;
     padding: 0 2em;
-    margin-right: 4em;
+    margin-top: -5em;
     display: flex;
     align-items: center;
 }
 
 .hero-txt {
     width: 50%;
-    /* padding-right: 1.7em; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,3 +178,61 @@ header {
     }
 }
 
+
+/* MAIN */
+
+main {
+    width: 100%;
+    height: 100vh;
+    padding: 2.5em 2em;
+    background-color: var(--BackGround-Um-color);
+    color: var(--Texto-color);
+    /* display:flex;
+    flex-direction: column;
+    gap: 15%; */
+}
+
+.main-txt {
+    width: 75%;
+    height: 11em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+
+
+    span {
+        margin-bottom: 2.5em;
+    }
+
+    h2 {
+        color: var(--Principal-color);
+        font-size: 4.9vw;
+        line-height: .9em;
+        margin-bottom: .2em;
+    }
+
+    p {
+        font-size: 1.22vw
+    }
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    gap: 10%;
+
+    .main-box {
+        width: 27em;
+        height: 20em;
+        background-color: var(--BackGround-Um-claro-color);
+        padding: 1.4em;
+        border-radius: 27px;
+        border: 2px solid var(--Fundo-Btn-Escuro-color);
+        display:flex;
+        flex-direction: column;
+
+        span {
+            margin-bottom: 2em;
+        }
+    }
+}

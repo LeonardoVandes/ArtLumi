@@ -1,6 +1,13 @@
 # ArtLumi
 
-* Colocar sombra externa na img
-* Ver o tamanho de telas correta para poder fazer as media query
+[Header]
+* Fazer a animação da imagem
+* Colocar sombra externa na imagem
 * Arrumar logo, colocar nome no lado e colocar logo sem nome
-* Fazer as media query do header
+* Alterar o container experiência
+
+[Main]
+
+* Terminar o container serviços
+* Colocar a tag section com os atributos do main dentor
+* Fazer as media query

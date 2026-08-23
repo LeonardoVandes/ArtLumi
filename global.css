@@ -25,3 +25,7 @@ button {
 .transform-btn:hover {
     transform: translateY(-8px);
 }
+
+.span-font-size {
+     font-size: 65%;
+}
