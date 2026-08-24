@@ -29,3 +29,13 @@ button {
 .span-font-size {
      font-size: 65%;
 }
+
+.line-section::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--Fundo-Btn-Escuro-color);
+    display: flex;
+    /* position: absolute; */
+
+}

@@ -1,4 +1,9 @@
 @media screen and (max-width: 425px) {
+    /* Global */
+    .span-font-size {
+        font-size: 55%;
+    }
+
     .header-content {
         height: 3.4em;
     }
@@ -38,10 +43,11 @@
 
     .hero-btn {
         display: flex;
+        justify-content: center;
     }
 
     .white-btn, .transparent-btn {
-        padding: .4em 1em;
+        padding: .8em 1.2em;
         font-size: .7em;
     }
 
@@ -66,4 +72,114 @@
         display: flex;
         flex-direction: column;
     }
+
+
+    /* SECTION SERVICOS */
+
+    .servicos-txt {
+        width: 100%;
+        margin-bottom: 1%;
+        
+        h2 {
+            font-size: 6vw;
+        }
+
+        p {
+            font-size: 2.1vw
+        }
+    }
+
+    .servicos-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .servicos-box {
+        width: 90%;
+        height: 19em;
+
+        h3 {
+            font-size: 4vw;
+        }
+
+        p {
+            font-size: 2.3vw;
+        }
+    }
+
+
+    /* Section Trabalho */
+
+    .trabalho {
+        padding: 10em 0;
+    }
+
+    .trabalho-txt {
+
+        span {
+            margin-bottom: 2.2em;
+        }
+
+        h2 {
+            font-size: 7vw;
+        }
+
+        p {
+            font-size: 2.3vw;
+        }
+    }
+
+    .trabalho-container {
+        justify-content: center;
+        gap: 1.2em;
+    }
+
+    .trabalho-box {
+        width: 12em;
+
+        h3 {
+            font-size: 4.5vw;
+        }
+
+        p {
+            font-size: 2.2vw;
+        }
+    }
+
+
+    /* section Local */
+
+    .local-container {
+        flex-direction: column;
+        gap: 6em;
+    }
+
+    .local-txt {
+        width: 100%;
+
+        span{
+            text-align: left;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 7vw;
+        }
+
+        p {
+            text-align: center;
+            font-size: 2.3vw;
+        }
+    }
+
+    .local-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .local-item {
+        font-size: 2.1vw;
+    }
 }
+
