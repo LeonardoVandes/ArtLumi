@@ -17,9 +17,9 @@
 button {
     cursor: pointer;
 }
+
 .transform-btn {
     transition: all .3s ease-in-out;
-    
 }
 
 .transform-btn:hover {
@@ -36,6 +36,4 @@ button {
     height: 2px;
     background-color: var(--Fundo-Btn-Escuro-color);
     display: flex;
-    /* position: absolute; */
-
 }

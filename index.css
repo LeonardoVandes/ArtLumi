@@ -79,12 +79,17 @@ header {
   margin: 1.5em 0 4em 0;
 }
 
+.hero-btn {
+  display:flex;
+}
+
 .white-btn {
   padding: 1em 2em;
   background-color: var(--Fundo-Btn-Claro-color);
   border: none;
   box-shadow: 0px 0px 30px 1px var(--Fundo-Btn-Claro-Transparente-color);
   font-weight: 600;
+ 
 }
 
 .transparent-btn {
@@ -94,6 +99,7 @@ header {
   border: 2px solid var(--Destaque-color);
   color: var(--Branco-color);
   background-color: var(--Fundo-Btn-Escuro-color);
+  font-weight: 600;
 }
 
 .hero-container-img {
@@ -351,9 +357,6 @@ main {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
-    /* align-items: center;
-    justify-content: center; */
-    
 }
 
 
@@ -373,6 +376,61 @@ main {
 
 .local-item:last-child {
     grid-column: 1/-1;
-    width: auto;
-    justify-self: stretch;
+    /* width: auto; */
+    /* justify-self: stretch; */
+}
+
+
+/* Footer */
+
+footer {
+  width: 100%;
+  background-color: var(--BackGround-Um-color);
+  padding: 1.7em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.footer-txt {
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: .8em;
+
+    h2 {
+      font-size: 3.8vw;
+      color: var(--Principal-color);
+    }
+
+    p{
+      color: var(--Texto-color);
+      font-size: 1.12vw;
+    }
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  margin-top: 2.5em;
+
+    button {
+      width: 16em;
+      font-size: 1.45vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .7em;
+
+        .logo-whatsapp {
+          width: 1.5em;
+        }
+    }
+
+    p {
+      color: var(--Texto-color);
+      font-size: 1.22vw;
+    }
 }

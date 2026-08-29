@@ -8,6 +8,7 @@ https://leonardovandes.github.io/ArtLumi/
 * Arrumar logo, colocar nome no lado e colocar logo sem nome
 * Alterar o container experiência
 * Ajustar expaçamento entre a tag p e h1
+* Arrumar a media query para tablet/ checar todas as media query
 
 
 [Main]
@@ -20,13 +21,14 @@ https://leonardovandes.github.io/ArtLumi/
 [Trabalho]
 
 * Fazer a media query
-* Ver o que pode melhorar
 * Colocar ícones
 
 
 
 [Geral]
 
+* Ver o que pode melhorar
 * Fazer o SEO
-* Chacar todas as media query / Ver os formatos mais usados de tela
+* Checar todas as media query / Ver os formatos mais usados de tela
 * Fazer um seção imagem mais para frente
+* Testar Media Query em algum site de checagem
